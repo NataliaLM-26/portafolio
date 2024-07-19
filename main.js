@@ -6,8 +6,8 @@ let typewriter = new Typewriter(app, {
 });
  
 typewriter
-  .pauseFor(2500)
-  .typeString('Desarrollo sitios web y soy frontend')
-  .pauseFor(200)
-  .deleteChars(10)
+  .pauseFor(2400)
+  .typeString('Licenciatura en Ingeniería de Software con especialidad en Desarrollo Web')
+  .pauseFor(100)
+  .deleteChars(5)
   .start();
