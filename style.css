@@ -151,13 +151,15 @@ h1 {
 /* Proyectos */
 
 .proyectos-recientes {
-  padding: 30px;
+  padding: 40px;
 }
 
 .proyectos-recientes img {
-  height: 80%;
-  width: 80%;
-  padding: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  /* display: block; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -165,9 +167,8 @@ h1 {
 }
 
 .proyectos-contenedor {
-  padding-top: 60px;
+  padding-top: 2rem;
   margin-bottom: 40px;
-  padding-left: 6rem;
 }
 
 .overlay {
@@ -182,9 +183,9 @@ h1 {
 }
 
 .overlay p {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  
+  /* margin-bottom: 0; */
 }
 
 .proyecto {
@@ -208,6 +209,7 @@ h1 {
 .overlay i {
   color: black;
   font-size: 50px;
+  /* margin: 10px; */
 }
 
 .btn{
@@ -408,16 +410,16 @@ footer {
   }
 }
 
-  @media screen and (max-width: 350px) {
+ /*  @media screen and (max-width: 350px) {
     .proyectos-recientes{
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-    }
+    } */
 
     /* .h img {
       height: 15rem;
       width: 21rem;
-    } */
-}
+    } 
+}*/
