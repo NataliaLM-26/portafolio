@@ -1,6 +1,6 @@
 .navbar {
   padding: 2rem;
-  background-color: #d8c8e8;
+  background-color: #38135b;
 }
 
 .navbar-collapse {
@@ -20,17 +20,20 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
-  color:#32035f;
+  /* color:#32035f; */
+  color: white;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #250047;
+  background-color: #17002b;
+  /* background-color: #f4e7fc; */
 }
 
 .seccion-clara {
   color: black;
-  background-color: #f4e7fc;
+  /* background-color: #f4e7fc; */
+  background-color: #250047;
 }
 
 .seccion-titulo {
@@ -42,7 +45,8 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  /* color: #584e4e; */
+  color: white;
 }
 
 .seccion-texto {
@@ -57,7 +61,8 @@ h1 {
 }
 
 .texto-negro {
-  color: rgb(71, 0, 99);
+  /* color: rgb(71, 0, 99); */
+  color: white;
 }
 
 .texto-blanco {
@@ -67,7 +72,8 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #e7d4f3;
+  /* background-color: #e7d4f3; */
+  background-color: #250047;
   min-height: 450px;
   text-align: center;
 }
@@ -127,7 +133,7 @@ h1 {
 .experiencia i {
   font-size: 2.5rem;
   color: #8a30de;
-  background-color: #250246;
+  background-color: #ffffff;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -136,6 +142,11 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  color: #fff;
+}
+
+.columna{
+  color: #b3b2b2;
 }
 
 .badges-contenedor {
@@ -239,6 +250,10 @@ h1 {
   justify-content: center;
 }
 
+.seccion-titulo{
+  color: #fff;
+}
+
 .testimonio-imagen {
   height: 150px;
   width: 150px;
@@ -250,6 +265,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
+  color: #fff;
 }
 
 .testimonio-info {
@@ -259,6 +275,7 @@ h1 {
 
 .testimonio-info p {
   margin-bottom: 0;
+  color: #cb80fc;
 }
 
 .testimonio-footer .cliente {
@@ -267,7 +284,7 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #656060;
+  color: #929090;
 }
 
 /* Contacto */
@@ -409,17 +426,3 @@ footer {
     max-width: 600px;
   }
 }
-
- /*  @media screen and (max-width: 350px) {
-    .proyectos-recientes{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    } */
-
-    /* .h img {
-      height: 15rem;
-      width: 21rem;
-    } 
-}*/
